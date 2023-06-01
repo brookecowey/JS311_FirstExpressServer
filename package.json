@@ -1,0 +1,22 @@
+{
+  "name": "js311_firstexpressserver",
+  "version": "1.0.0",
+  "description": "JSON package for project",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookecowey/JS311_FirstExpressServer.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Brooke Cowey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brookecowey/JS311_FirstExpressServer/issues"
+  },
+  "homepage": "https://github.com/brookecowey/JS311_FirstExpressServer#readme"
+}
