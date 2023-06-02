@@ -4,6 +4,7 @@
   "description": "JSON package for project",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "npm test"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/brookecowey/JS311_FirstExpressServer/issues"
   },
-  "homepage": "https://github.com/brookecowey/JS311_FirstExpressServer#readme"
+  "homepage": "https://github.com/brookecowey/JS311_FirstExpressServer#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

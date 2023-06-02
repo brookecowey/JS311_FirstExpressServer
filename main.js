@@ -2,21 +2,32 @@ let express = require("express");
 
 let app = express()
 
-app.get(num1, num2)
-let num1 = 5;
-let num2 = 6;
+app.get("/add", function(req, res) {
+  const num1 = parseInt(req.query.num1)
+  const num2 = parseInt(req.query.num2)
+  const results = num1 + num2
+  return res.json(results)
+})
 
-res.send(11)
 
 
-app.post(num3, num4)
-let num3 = 3;
-let num4 = 12;
 
-res.send(36)
 
-app.get(num5)
+ app.post("/multiply", function (req, res) {
+  const num1 = parseInt(req.query.num1)
+  const num2 = pareseInt(req.query.num2)
+  const results = num1 * num2
+  return res.json(results)
 
-let num5 = 4;
+ })
 
-res.send(-4)
+
+ app.get("/negate", function (req, res) {
+  const num1 = parseInt(req.query.num1)
+  const results = - num1
+  return res.json(results)
+
+ })
+
+app.listen(4000, () => 
+  console.log(`Example app listening on port 4000!`))
